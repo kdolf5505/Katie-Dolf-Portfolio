@@ -1,20 +1,19 @@
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #6c757d;
-  background-color: #f8f9fa;
+  font-family: "PT Serif", sans-serif;
+  color: #000000;
+  background-color: #b9cbd9;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #343a40;
+  color: #000000;
 }
 
 hr {
   border-width: 1px;
   border-color: rgba(255, 249, 251, 0.4);
 }
-
 a {
-  color: #f3a14b;
+  color: #000000;
 }
 a:hover {
   color: #93ada4;
@@ -25,35 +24,35 @@ header.masthead {
   padding-top: 6rem;
   padding-bottom: 3rem;
   text-align: center;
-  background-color: #eadfc9;
+  background-color: #b9cbd9;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
-  font-family: 'Anton', sans-serif;
+  font-family: 'PT Serif', sans-serif;
   font-weight: 450;
   font-size: 1.5rem;
   line-height: 1.2;
-  color: #dc7646;
+  color: #000000;
 }
 .masthead-full-name {
-  font-family: 'Anton', sans-serif;
+  font-family: 'PT Serif', sans-serif;
   text-transform: uppercase;
   font-size: 2.75rem;
 }
 .last-name-highlight {
-  color: #f3a14b;
+  color: #000000;
 }
 @media (max-width: 576px) {
   .masthead-full-name {
-    font-family: 'Anton', sans-serif;
+    font-family: 'PT Serif', sans-serif;
     text-transform: uppercase;
     font-size: 2rem;
   }
 }
 
 .bg-primary {
-  background-color: #eadfc9 !important;
+  background-color: #cfcac7 !important;
 }
 
 .img-profile {
@@ -75,7 +74,7 @@ header.masthead {
 }
 
 .subheading {
-  font-family: 'Anton', sans-serif;
+  font-family: 'PT Serif', sans-serif;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 1.2rem;
@@ -83,10 +82,10 @@ header.masthead {
 
 .cv-titles {
   margin-bottom: 0.5rem;
-  font-family: 'Anton', sans-serif;
+  font-family: 'PT Serif', sans-serif;
   font-weight: 450;
   line-height: 1.2;
-  color: #343a40;
+  color: #000000;
 }
 
 .font-italic {
@@ -94,11 +93,11 @@ header.masthead {
 }
 
 .text-primary {
-  color: #f3a14b !important;
+  color: #000000 !important;
 }
 
 .text-dark {
-  color: #343a40 !important;
+  color: #000000 !important;
 }
 
 .social-icons .social-icon {
@@ -131,7 +130,7 @@ header.masthead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #dc7646;
+  background-color: #93ada4;
 }
 
 .dev-icons {
@@ -141,19 +140,19 @@ header.masthead {
 .footer {
   text-align: center;
   font-size: 0.9rem;
-  background-color: #eadfc9;
+  background-color: #b9cbd9;
 }
 
 /* CV navbar styling */
 
 .navbar-dark .navbar-brand {
-  color: #fff;
+  color: #000000;
 }
 .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
-  color: #fff;
+  color: #000000;
 }
 .navbar-dark .navbar-nav .nav-link {
-  color: #f3a14b;
+  color: #000000;
 }
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
   color: #93ada4;
@@ -188,8 +187,8 @@ header.masthead {
 
 .btn-primary {
   color: #f8f9fa;
-  background-color: #f3a14b;
-  border-color: #f3a14b;
+  background-color: #001233;
+  border-color: #001233;
 }
 
 .btn-primary:hover {
@@ -209,13 +208,13 @@ header.masthead {
   border-color: #93ada4;
 }
 .btn-outline-primary {
-  color: #DB995A;
-  border-color: #DB995A;
+  color: #001233;
+  border-color: #001233;
 }
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #DB995A;
-  border-color: #DB995A;
+  background-color: #001233;
+  border-color: #001233;
 }
 .btn-outline-primary:focus, .btn-outline-primary.focus {
   box-shadow: 0 0 0 0.2rem #93ada4;
@@ -226,11 +225,11 @@ header.masthead {
 }
 .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active, .show > .btn-outline-primary.dropdown-toggle {
   color: #fff;
-  background-color: #DB995A;
-  border-color: #DB995A;
+  background-color: #93ada4;
+  border-color: #001233;
 }
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem #dc7646;
+  box-shadow: 0 0 0 0.2rem #001233;
 }
 
 .btn-xl {
@@ -280,7 +279,7 @@ header.masthead {
 }
 
 .border-primary {
-  border-color: #DB995A !important;
+  border-color: #001233 !important;
 }
 
 /* Generic, Portfolio Page Section */
@@ -311,35 +310,37 @@ header.masthead {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #eadfc9;
+  background-color: #cfcac7;
   color: #f8f9fa;
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
   font-size: 1.25rem;
-  color: #dc7646;
+  color: white;
   text-transform: uppercase;
-  background-color: #bfdbcf;
+  background-color: #756477;
   border: 0;
 }
+/*Name in Navigation text*/
 #mainNav .navbar-brand {
-  color: #dc7646;
+  color: #001233;
   font-weight: 700;
   letter-spacing: 0.0625em;
-  font-family: 'Anton', sans-serif;
+  font-family: 'PT Serif', sans-serif; 
 }
-
+/*Resume in Navigation text*/
 #mainNav .navbar-nav .nav-item .nav-link {
   font-size: 0.95rem;
-  color: #dc7646;
+  color: #001233;
   letter-spacing: 0.0625em;
 }
+/*Portfolio in Navigation text*/
 #mainNav .navbar-nav .nav-item .nav-link.active{
-  color: #DB995A;
+  color: #001233;
 } 
 
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #DB995A;
+  color: #b9cbd9;
 }
 
 @media (min-width: 992px) {
@@ -361,7 +362,7 @@ header.masthead {
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #eadfc9;
+    background-color: #cfcac7;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -395,7 +396,7 @@ header.masthead {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: #93ada4;
+  background: #cfcac7;
   align-items: center;
   justify-content: center;
   opacity: 0;
@@ -403,7 +404,7 @@ header.masthead {
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
   font-size: 1.25rem;
-  color: white;
+  color: black;
 }
 #portfolio .portfolio-item .portfolio-link:hover .portfolio-hover {
   opacity: 1;
@@ -411,7 +412,7 @@ header.masthead {
 #portfolio .portfolio-item .portfolio-caption {
   padding: 1.5rem;
   text-align: center;
-  background-color: #fff;
+  background-color: #b9cbd9;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
   font-size: 1.5rem;
